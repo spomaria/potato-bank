@@ -1,0 +1,86 @@
+.about{
+    background-color: rgb(206, 227, 175);
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about :last-child{
+    margin-bottom: 1vh;
+}
+
+.about-div{
+    width: 60%;
+    align-items: center;
+    height: inherit;
+    margin-top: 1vh;
+    /* width: 40vh; */
+    padding: 1vh;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid green;
+    box-shadow: 1px 1px 1px 1px green;
+}
+
+.potato{
+    position: relative;
+    animation-name: potato;
+    animation-duration: 2s;
+
+}
+
+.about h1, p, li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes potato {
+    from{top: 50vh;}
+    to{top: 11vh}    
+}
+
+.farmer{
+    position: relative;
+    animation-name: farmer;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes farmer {
+    from{top: 50vh;}
+    to{top: 21vh}    
+}
+
+.consumer{
+    position: relative;
+    animation-name: cosumer;
+    animation-duration: 2s;
+    animation-delay: 3s;
+
+}
+
+@keyframes consumer {
+    from{top: 50vh;}
+    to{top: 40vh}    
+}
+
+/* 
+.potato{
+    position: relative;
+    margin-left: 30vh;
+   
+}
+.farmer{
+    position: relative;
+    margin-left: 72vh;
+   
+    
+}
+
+.consumer{
+    position: relative;
+    margin-left: 102vh;
+    margin-top: 1vh;
+} */

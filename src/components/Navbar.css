@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw;
+    height: 15vh;
+    background-color: rgb(13, 214, 36);
+}
+
+.nav-title{
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+.nav-icons{
+    display: flex;
+    justify-content: stretch;
+    /* align-content: space-around; */
+    gap: 1.2vw;
+}
+
+.nav-icons a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+.nav-icons a:hover{
+    color: green;
+    background-color: aliceblue;
+}
+
+.nav-icons a.active{
+    color: green;
+    background-color: aliceblue;
+}
+
+.bolder{
+    font-weight: 700;
+    font-size: 5vw;
+    font-family: 'Monoton', cursive;
+}
+
+#brown{
+    color: brown;
+}

@@ -1,0 +1,9 @@
+.services{
+    background-color: rgb(206, 227, 175);
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    font-family: 'Montserrat', sans-serif;
+}

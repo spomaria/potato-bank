@@ -1,0 +1,25 @@
+.footer{
+    font-size: .5vw;
+    font-weight: 600;
+    text-align: center;
+    background-color: green;
+    padding: 2vw;
+    height: 10vh;
+}
+
+.foot-div{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.foot-div a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.foot-div a:hover{
+    color: green;
+    background-color: aliceblue;
+}
