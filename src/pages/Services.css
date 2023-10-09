@@ -42,3 +42,36 @@ button:hover{
     color: green;
     background-color: aliceblue;
 }
+
+.dropdown{
+    position: relative;
+    margin: 0 5vw;
+    padding: 5px;
+    width: 100%;
+    user-select: none;
+}
+
+.dropdown-btn, .dropdown-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.dropdown-btn{
+    margin: 0 14vw;
+    padding: 10px;
+    box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.6);
+}
+
+.dropdown-content{
+    position: absolute;
+    margin: .5vw 14vw;
+    padding: 10px;
+    box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.6);
+    width: 42.3%;
+    opacity: 1;
+}
+
+.dropdown-item:hover{
+    background-color: #f4f4f4;
+}

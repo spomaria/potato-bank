@@ -36,3 +36,12 @@ form, input{
     font-size: 1.5vw;
     font-family: 'Montserrat', sans-serif;
 }
+
+.proceed{
+    font-size: 1.5vw;
+}
+
+.close{
+    font-size: 1vw;
+    padding: .5vw 1vw;
+}
