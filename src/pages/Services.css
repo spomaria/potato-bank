@@ -1,9 +1,44 @@
 .services{
     background-color: rgb(206, 227, 175);
     min-height: 65vh;
+    padding: 0 25%;
     display: flex;
+    gap: 5vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
+}
+
+.services h1, p, button{
     font-family: 'Montserrat', sans-serif;
+}
+
+.buy-potato, .sell-potato{
+    padding: 2vh 4vh;
+    text-align: center;
+    border: 1px solid green;
+    box-shadow: 1px 1px 1px 1px green;
+}
+
+.buy-potato{
+    margin-top: 4vh;
+}
+
+.sell-potato{
+    margin-bottom: 4vh;
+}
+
+button{
+    padding: 2vh 4vh;
+    background-color: rgb(13, 214, 36);
+    border-radius: 50px;
+    border: none;
+    font-size: 2vw;
+    font-weight: 700;
+    
+}
+
+button:hover{
+    color: green;
+    background-color: aliceblue;
 }
